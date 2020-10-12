@@ -1,0 +1,18 @@
+.thFooterHead{
+    margin: 55px;
+}
+.FooterMainParentDiv{
+    background-color: #6b7177;
+}
+/* .ParentOfFooterHeadMap{
+    margin-top: 55px;
+} */
+.itemHead{
+    color: rgb(237, 255, 158);
+    margin-left: 185px;
+    margin-top: 55px;
+}
+.FooterLink{
+    text-decoration: none;
+    color:white;
+}

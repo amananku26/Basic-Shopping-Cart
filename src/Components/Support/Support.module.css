@@ -1,0 +1,10 @@
+.parentSupport{
+    background-color: #387ed1;
+}
+.BOx2DivItemMap{
+    border:1px solid orangered;
+    padding: 55px;
+    margin: 15px;
+    background-color: rgb(245, 245, 245);
+    font-family: cursive;
+}

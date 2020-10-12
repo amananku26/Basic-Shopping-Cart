@@ -1,0 +1,33 @@
+.LoginStyle{
+    height: 555px;
+    text-align: center;
+}
+.LoginStyleChild{
+    margin-top: 105px;
+    padding: 35px;
+    border: 1px solid orange;
+    font-family: cursive;
+    box-shadow: 10px 10px 8px #888888;
+}
+.Input1Form{ 
+margin: 15px;
+} 
+.Input2Form{
+    margin: 15px;
+}  
+
+input {
+    border: none;
+  border-bottom: 2px solid rgb(238, 109, 255);
+  }
+  .LoginButtonForm{
+      padding: 15px;
+      margin-top: 25px;
+      width: 155px;
+      border-radius: 25px;
+      background-color: #F44336;
+      box-shadow: 5px 5px 8px 5px #888888;
+  }
+  .LogoutParent{
+      text-align: center;
+  }
