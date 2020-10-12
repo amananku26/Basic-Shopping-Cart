@@ -4,4 +4,7 @@
 Demo of the Project [https://drive.google.com/file/d/1dFaTjFjqxlpQJcVP13arjgC34t9-0lW4/view?usp=sharing]
 Live Server [https://my-first-react-deploy.netlify.app/]
 
-![Login Page](public\images\image1.jpg?raw=true "Title")
+<p align="center">
+  <img src="images/image2" width="350" title="hover text">
+  <img src="images/imag2.jpg" width="350" alt="accessibility text">
+</p>
