@@ -7,3 +7,9 @@
 ![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/image1.jpg)
 ![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/imag2.jpg)
 ![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/image3.jpg)
+
+
+Credentials For Log in:
+
+> eve.holt@reqres.in
+> pistol
