@@ -4,6 +4,6 @@
 [Demo of the Project] (https://drive.google.com/file/d/1dFaTjFjqxlpQJcVP13arjgC34t9-0lW4/view?usp=sharing)
 [Live Server] (https://my-first-react-deploy.netlify.app/)
 
-
+![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/image1.jpg)
 ![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/imag2.jpg)
-  
+![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/image3.jpg)
