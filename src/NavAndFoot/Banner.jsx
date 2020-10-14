@@ -8,7 +8,7 @@ class Banner extends Component {
         return(
            <div className={styles.ParentBanner} style={{ fontFamily: "cursive"}}>
              <div className={styles.BannerText}>
-                 Get Upto 50% off on this Big Sale Day Hurry!
+             Invite friends to Big Fasion Festival & get up to ₹150 MynCash for every person who visits
              </div>
 
            </div>

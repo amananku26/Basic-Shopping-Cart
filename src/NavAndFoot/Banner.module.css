@@ -1,12 +1,10 @@
-.ParentBanner{
+.ParentBanner {
     height: 25px;
-    background-color: tomato;
+    background-color: #dee8ff;
     padding: 8px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border: 1px dashed aqua;
 }
-.BannerText{
+
+.BannerText {
     text-align: center;
-    color: rgb(204, 0, 255)4, 0, 255);
+    color: black;
 }

@@ -11,7 +11,8 @@ class AuthContextProvider extends React.Component {
       token: "",
       isAuth: false,
       itemInCart:[],
-      ButtonMesg:""
+      ButtonMesg:"",
+      List:[]
     };
   }
 
@@ -29,9 +30,22 @@ class AuthContextProvider extends React.Component {
         })
       );
   };
+
+  componentDidMount() {
+    // http://localhost:3000/tasks for json mocker server change the url
+    //  heroku json https://test-first-heroku-mocker.herokuapp.com/List
+    axios.get("https://test-first-heroku-mocker.herokuapp.com/List").then((res) =>
+      this.setState({
+        List: res.data
+      })
+    );
+  }
+
+
   handleLogout = () => {
     this.setState({
-      isAuth:false
+      isAuth:false,
+      itemInCart:[]
     })
   }
   handleAddCo = (title,price,image,id) => {
@@ -51,9 +65,9 @@ class AuthContextProvider extends React.Component {
 
   render() {
     // console.log(this.state.itemInCart);
-    const { isAuth, token , itemInCart,ButtonMesg} = this.state;
+    const { isAuth, token , itemInCart,ButtonMesg,List} = this.state;
     const { checkAuthentication ,handleLogout ,handleAddCo} = this;
-    const value = { isAuth, token, checkAuthentication, data , handleLogout,itemInCart,handleAddCo,ButtonMesg};
+    const value = { isAuth, token, checkAuthentication, data ,List, handleLogout,itemInCart,handleAddCo,ButtonMesg};
     return (
       <AuthContext.Provider value={value}>
         {this.props.children}

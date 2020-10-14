@@ -9,8 +9,8 @@ class App extends Component {
     render(){
         return (
             <>
-            <Banner />
             <NavBar />
+            <Banner />
             <Routing />
             <Footer />
             </>

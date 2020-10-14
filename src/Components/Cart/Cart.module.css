@@ -8,7 +8,7 @@
     width: 155px;
     height: 50px;
     border: none;
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 20px;
     background-color: rgba(15, 119, 255, 0.849);
     color: white;
@@ -16,9 +16,61 @@
     margin-left: 35px;
 }
 .FlexOfItems{
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 1px;
     text-decoration: none;
 }
+.zoom {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(2.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .ParentOfTotalSum{
+      /* float: right; */
+      font-size: 25px;
+      padding: 12px;
+      box-shadow: 1px 1px 5px 1px #888888;
+      margin-bottom: 85px;
+  }
+  .zoom1 {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: transform .2s;
+    width: 350px;
+    height: 50px;
+    margin: 15px auto;
+  }
+  
+  .zoom1:hover {
+    -ms-transform: scale(2.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 55px;
+  }
+  
+  .button:hover {opacity: 1}

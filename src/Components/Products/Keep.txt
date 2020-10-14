@@ -1,0 +1,21 @@
+ {List.map((item) => {
+          return (
+            <>
+              <Box style={{ border: "1px solid grey", margin: "8px" ,display:"flex"}}>
+                <ul style={{ margin: "7px" }}>
+                  <Link to={`/products/${item.id}`}>
+                    <div>{item.title}</div>
+                  </Link>
+                  <div>
+                    <img src={item.image} height="150px" alt="logo" />
+                  </div>
+                  <div>
+                    ${item.price}
+                  </div>
+                  <div></div>
+                </ul>
+              </Box>
+              
+            </>
+          );
+        })}

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import styles from "./Cart.module.css"
 import {AuthContext} from "../../context/AuthContext"
+import Total from "./Total"
 import styled from "styled-components";
 const Box = styled.h1`
   font-size: 1.5em;
@@ -11,19 +12,22 @@ const Box = styled.h1`
 class CartItem extends Component {
     constructor(props){
         super(props)
-        this.state={}
+        this.state= {
+          TotalPrice:0
+        }
     }
-
     
-
-
-
     render(){
         const {itemInCart} = this.context
         console.log(itemInCart);
+        // calculation of total price
+        
         if(itemInCart.length<1){
             return(
-                <h1>Your Cart Is Empty</h1>
+               <>
+                   <img src="/images/emptycart3.png" width="100%" height="700px" alt="emptyCarticons"/>
+
+               </>
             )
         }
         else {
@@ -33,22 +37,24 @@ class CartItem extends Component {
         {itemInCart.map((item) => {
           return (
             <>
-              <Box style={{ border: "1px solid grey", margin: "8px" ,display:"flex"}}>
-                <ul style={{ margin: "7px" }}>
+              <Box style={{ border: "1px solid grey",textAlign:"center"}}>
+                  <div style={{float:"left",marginLeft:"100px"}}>
+                    <img className={styles.zoom} src={item.image} height="50px" alt="logo" />
+                  </div>
+                  <div style={{marginTop:"15px",marginLeft:"15px",float:"left"}}>
                   <div>{item.title}</div>
-                  <div>
-                    <img src={item.image} height="150px" alt="logo" />
-                  </div>
-                  <div>
-                    ${item.price}
-                  </div>
-                  <div></div>
-                </ul>
+                  <div>${item.price}</div>
+                 </div>
+                 <div>
+                 </div>
               </Box>
             </>
           );
         })}
       </div>
+      <div>
+                <Total />
+              </div>
         </>
     )
         }

@@ -5,7 +5,7 @@ var thList = ["Products", "Most Search items ", "Point OF Sale", "Social Media"]
 var products = ["Mens", "Womens", "Kids", 'Watch', "TV"]
 var MostSearchitems = ["Jenas", "Smart Watch", "Shoes"]
 var PointOFSaleList = ["Point of sale", "Features", "Hardware"]
-var SocialMedia = ["FaceBook", "Twitter" , "Instagram" ]
+var SocialMedia = ["FaceBook", "Twitter", "Instagram"]
 class Footer extends Component {
 
 
@@ -41,7 +41,7 @@ class Footer extends Component {
                             })
                         }
                     </tr>
-                     {/* MostSearchitems */}
+                    {/* MostSearchitems */}
                     <tr style={{ float: "left", marginLeft: "195px", marginBottom: "155px", marginTop: "15px", color: "white" }}>
                         {
                             MostSearchitems.map((items) => {
@@ -54,7 +54,7 @@ class Footer extends Component {
                             })
                         }
                     </tr>
-                     {/* PointOFSaleList */}
+                    {/* PointOFSaleList */}
                     <tr style={{ float: "left", marginLeft: "135px", marginTop: "15px", color: "white" }}>
                         {
                             PointOFSaleList.map((items) => {

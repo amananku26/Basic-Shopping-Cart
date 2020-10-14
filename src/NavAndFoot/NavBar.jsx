@@ -17,7 +17,7 @@ class NavBar extends Component {
         return (
             <div className={styles.NavParentDiv} style={{ fontFamily: "cursive"}}>
             <div>
-               <Link to="/Home"> <img className={styles.NavIcon} src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/698px-Apple_Computer_Logo_rainbow.svg.png" alt="zerodhaLogo" /></Link>
+               <Link to="/Home"> <img className={styles.NavIcon} src="/images/aman3.png" alt="zerodhaLogo" /></Link>
                 
                 <span className={styles.LinkP}>
                 {
@@ -35,8 +35,8 @@ class NavBar extends Component {
                 }
 
                 <span>
-                <Link to="/cart"><img className={styles.CartIcon} src="https://www.pngitem.com/pimgs/m/20-203005_shopping-cart-shopping-icon-circle-shopping-cart-logo.png" alt="CartLogo"/></Link>
-                <span style={{color:"white"}}> {this.context.itemInCart.length}</span>
+                <Link to="/cart"><img className={styles.CartIcon} src="images/cart1.svg" alt="CartLogo"/></Link>
+                <span style={{color:"black"}}> {this.context.itemInCart.length}</span>
                 </span>
                 </span>
                 </div>
