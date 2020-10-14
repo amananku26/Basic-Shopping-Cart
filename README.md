@@ -4,9 +4,9 @@
 [Demo of the Project] (https://drive.google.com/file/d/1cpKXDZmRrL_QoDaRwqhmDXuWu04wYFJk/view?usp=sharing)
 [Live Server Vercel App] (https://shoppingcart-sort.vercel.app)
 
-![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/image1.jpg)
-![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/imag2.jpg)
-![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/image3.jpg)
+![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/Screenshot%202020-10-14%20160210.jpg)
+![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/Screenshot%202020-10-14%20160136.jpg)
+![Image of Yaktocat](https://github.com/amananku26/Basic-Shopping-Cart/blob/main/public/images/Screenshot%202020-10-14%20160224.jpg)
 
 
 Credentials For Log in:
