@@ -36,36 +36,36 @@ class Products extends Component {
 
   render() {
     // console.log(this.context.handleAddCo);
-    const {handleAddCo,ButtonMesg} = this.context
+    const { handleAddCo, ButtonMesg } = this.context
     const { list } = this.state;
     const { id } = list;
     console.log(list)
     return (
       <div className={styles.productMapItemparent}>
-          <div className={styles.productMapItemparentChild}>
+        <div className={styles.productMapItemparentChild}>
           <div className={styles.gridContainer}>
-          <div className={styles.item2img}><img className={styles.imgBox} src={list.image} alt="productImage"/></div>
-           
-             <div className={styles.AfterItem1}>
-             <div className={styles.item1} style={{color:"#FF0000"}}>{list.title} <span style={{opacity:".5"}}>#JustHere</span> </div>
-                    <div className={styles.item3}>${list.price}</div>  
-               <div className={styles.item4}> <button onClick={()=>handleAddCo(list.title,list.price,list.image,list.id)} data={this.state.list} className={styles.AddtoCart}>Add To cart</button> 
-               <div>
-                 {
-                   PaymentList.map((item)=>{
-                     return(
-                       <img src={item} style={{marginTop:"25px",marginLeft:"25px"}} height="30px" alt="paymentLogo"/>
-                     )
-                   })
-                 }
-               </div>
-               <div style={{color:"green"}}>{ButtonMesg}</div>
-               </div>
-                  <div className={styles.item5Description}> <span style={{color:"#FF0000"}}>Description: </span>{list.description}</div>
-                      </div>
-                      </div>
+            <div className={styles.item2img}><img className={styles.imgBox} src={list.image} alt="productImage" /></div>
+
+            <div className={styles.AfterItem1}>
+              <div className={styles.item1} style={{ color: "#FF0000" }}>{list.title} <span style={{ opacity: ".5" }}>#JustHere</span> </div>
+              <div className={styles.item3}>${list.price}</div>
+              <div className={styles.item4}> <button onClick={() => handleAddCo(list.title, list.price, list.image, list.id)} data={this.state.list} className={styles.AddtoCart}>Add To cart</button>
+                <div>
+                  {
+                    PaymentList.map((item) => {
+                      return (
+                        <img src={item} style={{ marginTop: "25px", marginLeft: "25px" }} height="30px" alt="paymentLogo" />
+                      )
+                    })
+                  }
+                </div>
+                <div style={{ color: "green" }}>{ButtonMesg}</div>
+              </div>
+              <div className={styles.item5Description}> <span style={{ color: "#FF0000" }}>Description: </span>{list.description}</div>
+            </div>
           </div>
-    
+        </div>
+
       </div>
     );
   }

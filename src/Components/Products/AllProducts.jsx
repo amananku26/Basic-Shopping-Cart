@@ -137,7 +137,7 @@ class AllProducts extends Component {
                   <ul style={{ margin: "7px" }}>
                     
                     <div className={styles.imgHoverZoom}>
-                      <img src={item.image} height="120px" alt="logo" />
+                      <img src={item.image} height="160px" alt="logo" />
                     </div>
                     <Link to={`/products/${item.id}`}>
                       <div className={styles.ItemTitleInAllProducts}>{item.title}</div>
